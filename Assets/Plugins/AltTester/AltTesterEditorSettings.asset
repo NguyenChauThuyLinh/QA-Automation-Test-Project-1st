@@ -18,7 +18,7 @@ MonoBehaviour:
   XcrunPath: /usr/bin/xcrun
   MyTests:
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
     _status: 0
     _isSuite: 1
@@ -31,8 +31,78 @@ MonoBehaviour:
     _testDuration: 0
     path: 
     _testSelectedCount: 0
+  - _selected: 0
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/Assembly-CSharp.dll
+    _testAssembly: Assembly-CSharp
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestAssembly
+    _parentName: 
+    _testCaseCount: 3
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: AltTestLogin
+    _testAssembly: Assembly-CSharp
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/Assembly-CSharp.dll
+    _testCaseCount: 3
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: AltTestLogin.TestEmptyFieldsLogin
+    _testAssembly: Assembly-CSharp
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: AltTestLogin
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: Assets/4.ThirdParties/AltTester/AltTesterEditor/AltTestLogin.cs
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: AltTestLogin.TestInvalidLogin
+    _testAssembly: Assembly-CSharp
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: AltTestLogin
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: Assets/4.ThirdParties/AltTester/AltTesterEditor/AltTestLogin.cs
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: AltTestLogin.TestValidLogin
+    _testAssembly: Assembly-CSharp
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: AltTestLogin
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: Assets/4.ThirdParties/AltTester/AltTesterEditor/AltTestLogin.cs
+    _testSelectedCount: 0
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll
     _testAssembly: Unity.Rider.Editor
     _status: 0
     _isSuite: 1
@@ -46,7 +116,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
     _testAssembly: Unity.TestTools.CodeCoverage.Editor
     _status: 0
     _isSuite: 1
@@ -60,7 +130,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
     _testAssembly: Unity.VisualStudio.Editor
     _status: 0
     _isSuite: 1
@@ -74,7 +144,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
     _testAssembly: UnityEditor.TestRunner
     _status: 0
     _isSuite: 1
@@ -88,7 +158,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: D:/Thuc/AutomationTestProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    _testName: D:/QA-Automation-Test-Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
     _testAssembly: UnityEngine.TestRunner
     _status: 0
     _isSuite: 1
@@ -127,4 +197,4 @@ MonoBehaviour:
   assemblyTestDisplayedIndex: 0
   ResetConnectionData: 0
   UID: 
-  KeepAUTSymbolDefined: 0
+  KeepAUTSymbolDefined: 1
